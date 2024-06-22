@@ -4,7 +4,8 @@
 
 ## Desarrolladores 👩‍⚕️🧑‍⚕️
 
-- [Layza Casseli](https://github.com/CasseliLayza) - [Paico Alison](https://github.com/alison304/odonto-p)
+- [Layza Casseli](https://github.com/CasseliLayza)
+- [Paico Alison](https://github.com/alison304/odonto-p)
 
 ---
 

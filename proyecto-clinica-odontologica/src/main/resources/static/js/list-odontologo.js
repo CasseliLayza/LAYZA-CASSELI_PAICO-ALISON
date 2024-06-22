@@ -124,7 +124,7 @@ function deleteRow(id) {
           console.log("Status Code " + err.status);
           console.log(errText);
           if (errText) {
-            statusMessage(errText, "error", err.status);
+            statusMessage(errText, "warning", err.status);
           }
         });
       } else {

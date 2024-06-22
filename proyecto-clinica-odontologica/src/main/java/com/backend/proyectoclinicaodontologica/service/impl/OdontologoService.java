@@ -64,7 +64,7 @@ public class OdontologoService implements IOdontologoService {
             odontologoDtoOut = modelMapper.map(odontologoBuscado, OdontologoDtoOut.class);
             LOGGER.info("Odontologo encontrado --> {}", JsonPrinter.toString(odontologoDtoOut));
         } else {
-            LOGGER.info("Odontologo no encontrado, verificar el id -->{} ", id);
+            LOGGER.info("Odontologo no encontrado, verificar el id --> {} ", id);
         }
 
         return odontologoDtoOut;

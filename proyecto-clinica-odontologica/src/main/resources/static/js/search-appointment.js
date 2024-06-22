@@ -51,14 +51,20 @@ async function fetchData(url, settings) {
     }
 
     // Parse the JSON response
+    console.log(response);
+    statusCode = response.status;
+
     let data = await response.json();
 
     // Log the data
     return data;
   } catch (error) {
     // Handle any errors
-    console.error("Error fetching data:", error);
-    location.reload();
-    return null;
+    console.log(error);
+
+    console.error("Error fetching no data:");
+    //
+    statusMessage("Ingrese Id valido", "warning", statusCode);
+    //
   }
 }
